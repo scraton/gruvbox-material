@@ -171,6 +171,9 @@ function! gruvbox_material#get_palette(background, palette) "{{{
       let palette2 = {
             \ 'fg0':              ['#d4be98',   '223'],
             \ 'fg1':              ['#ddc7a1',   '223'],
+            \ 'fg2':              ['#ddc7a1',   '223'],
+            \ 'fg3':              ['#ddc7a1',   '223'],
+            \ 'fg4':              ['#ddc7a1',   '223'],
             \ 'red':              ['#ea6962',   '167'],
             \ 'orange':           ['#e78a4e',   '208'],
             \ 'yellow':           ['#d8a657',   '214'],
@@ -186,6 +189,9 @@ function! gruvbox_material#get_palette(background, palette) "{{{
       let palette2 = {
             \ 'fg0':              ['#654735',   '237'],
             \ 'fg1':              ['#4f3829',   '237'],
+            \ 'fg2':              ['#4f3829',   '237'],
+            \ 'fg3':              ['#4f3829',   '237'],
+            \ 'fg4':              ['#4f3829',   '237'],
             \ 'red':              ['#c14a4a',   '88'],
             \ 'orange':           ['#c35e0a',   '130'],
             \ 'yellow':           ['#b47109',   '136'],
@@ -203,6 +209,9 @@ function! gruvbox_material#get_palette(background, palette) "{{{
       let palette2 = {
             \ 'fg0':              ['#e2cca9',   '223'],
             \ 'fg1':              ['#e2cca9',   '223'],
+            \ 'fg2':              ['#e2cca9',   '223'],
+            \ 'fg3':              ['#e2cca9',   '223'],
+            \ 'fg4':              ['#e2cca9',   '223'],
             \ 'red':              ['#f2594b',   '167'],
             \ 'orange':           ['#f28534',   '208'],
             \ 'yellow':           ['#e9b143',   '214'],
@@ -218,6 +227,9 @@ function! gruvbox_material#get_palette(background, palette) "{{{
       let palette2 = {
             \ 'fg0':              ['#514036',   '237'],
             \ 'fg1':              ['#514036',   '237'],
+            \ 'fg2':              ['#514036',   '237'],
+            \ 'fg3':              ['#514036',   '237'],
+            \ 'fg4':              ['#514036',   '237'],
             \ 'red':              ['#af2528',   '88'],
             \ 'orange':           ['#b94c07',   '130'],
             \ 'yellow':           ['#b4730e',   '136'],
@@ -233,8 +245,11 @@ function! gruvbox_material#get_palette(background, palette) "{{{
   else "{{{
     if &background ==# 'dark'
       let palette2 = {
-            \ 'fg0':              ['#ebdbb2',   '223'],
+            \ 'fg0':              ['#fbf1c7',   '229'],
             \ 'fg1':              ['#ebdbb2',   '223'],
+            \ 'fg2':              ['#d5c4a1',   '250'],
+            \ 'fg3':              ['#bdae93',   '248'],
+            \ 'fg4':              ['#a89984',   '246'],
             \ 'red':              ['#fb4934',   '167'],
             \ 'orange':           ['#fe8019',   '208'],
             \ 'yellow':           ['#fabd2f',   '214'],
@@ -250,6 +265,9 @@ function! gruvbox_material#get_palette(background, palette) "{{{
       let palette2 = {
             \ 'fg0':              ['#3c3836',   '237'],
             \ 'fg1':              ['#3c3836',   '237'],
+            \ 'fg2':              ['#3c3836',   '237'],
+            \ 'fg3':              ['#3c3836',   '237'],
+            \ 'fg4':              ['#3c3836',   '237'],
             \ 'red':              ['#9d0006',   '88'],
             \ 'orange':           ['#af3a03',   '130'],
             \ 'yellow':           ['#b57614',   '136'],

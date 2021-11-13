@@ -309,6 +309,10 @@ call gruvbox_material#highlight('Underlined', s:palette.none, s:palette.none, 'u
 " }}}
 " Predefined Highlight Groups: {{{
 call gruvbox_material#highlight('Fg', s:palette.fg0, s:palette.none)
+call gruvbox_material#highlight('Fg1', s:palette.fg1, s:palette.none)
+call gruvbox_material#highlight('Fg2', s:palette.fg2, s:palette.none)
+call gruvbox_material#highlight('Fg3', s:palette.fg3, s:palette.none)
+call gruvbox_material#highlight('Fg4', s:palette.fg4, s:palette.none)
 call gruvbox_material#highlight('Grey', s:palette.grey1, s:palette.none)
 call gruvbox_material#highlight('Red', s:palette.red, s:palette.none)
 call gruvbox_material#highlight('Orange', s:palette.orange, s:palette.none)
@@ -485,13 +489,13 @@ highlight! link TSKeywordReturn Red
 highlight! link TSLabel Red
 highlight! link TSMethod GreenBold
 highlight! link TSNamespace YellowItalic
-highlight! link TSNone Fg
+highlight! link TSNone Fg1
 highlight! link TSNumber Purple
 highlight! link TSOperator Orange
 highlight! link TSParameter Fg
 highlight! link TSParameterReference Fg
-highlight! link TSProperty Fg
-highlight! link TSPunctBracket Grey
+highlight! link TSProperty Fg2
+highlight! link TSPunctBracket Fg3
 highlight! link TSPunctDelimiter Grey
 highlight! link TSPunctSpecial Blue
 highlight! link TSRepeat Red
@@ -509,7 +513,7 @@ highlight! link TSMath Blue
 highlight! link TSType Yellow
 highlight! link TSTypeBuiltin YellowItalic
 highlight! link TSURI markdownUrl
-highlight! link TSVariable Fg
+highlight! link TSVariable Fg1
 highlight! link TSVariableBuiltin BlueItalic
 " }}}
 " neoclide/coc.nvim {{{
