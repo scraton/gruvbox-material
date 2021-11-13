@@ -1134,13 +1134,13 @@ highlight! link DirvishArg Yellow
 " ft_end }}}
 " ft_begin: NvimTree {{{
 " https://github.com/kyazdani42/nvim-tree.lua
-highlight! link NvimTreeSymlink Fg
-highlight! link NvimTreeFolderName Green
-highlight! link NvimTreeRootFolder Grey
+highlight! link NvimTreeSymlink Aqua
+highlight! link NvimTreeFolderName Aqua
+highlight! link NvimTreeRootFolder Green
 highlight! link NvimTreeFolderIcon Orange
-highlight! link NvimTreeEmptyFolderName Green
-highlight! link NvimTreeOpenedFolderName Green
-highlight! link NvimTreeExecFile Fg
+highlight! link NvimTreeEmptyFolderName Aqua
+highlight! link NvimTreeOpenedFolderName Aqua
+highlight! link NvimTreeExecFile Yellow
 highlight! link NvimTreeOpenedFile Fg
 highlight! link NvimTreeSpecialFile Fg
 highlight! link NvimTreeImageFile Fg
