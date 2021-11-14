@@ -2402,6 +2402,8 @@ highlight! link jsonBraces Fg
 " ft_begin: yaml {{{
 highlight! link yamlKey Orange
 highlight! link yamlConstant Purple
+
+highlight! link yamlTSField Blue
 " ft_end }}}
 " ft_begin: toml {{{
 call gruvbox_material#highlight('tomlTable', s:palette.purple, s:palette.none, 'bold')
