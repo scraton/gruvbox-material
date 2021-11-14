@@ -245,8 +245,13 @@ function! gruvbox_material#get_palette(background, palette) "{{{
   else "{{{
     if &background ==# 'dark'
       let palette2 = {
-            \ 'fg0':              ['#fbf1c7',   '229'],
-            \ 'fg1':              ['#ebdbb2',   '223'],
+            \ 'bg0':              ['#282828',   '235'],
+            \ 'bg1':              ['#3c3836',   '237'],
+            \ 'bg2':              ['#504945',   '239'],
+            \ 'bg3':              ['#665c54',   '241'],
+            \ 'bg4':              ['#7c6f64',   '243'],
+            \ 'fg0':              ['#ebdbb2',   '223'],
+            \ 'fg1':              ['#fbf1c7',   '229'],
             \ 'fg2':              ['#d5c4a1',   '250'],
             \ 'fg3':              ['#bdae93',   '248'],
             \ 'fg4':              ['#a89984',   '246'],
@@ -255,7 +260,7 @@ function! gruvbox_material#get_palette(background, palette) "{{{
             \ 'yellow':           ['#fabd2f',   '214'],
             \ 'green':            ['#b8bb26',   '142'],
             \ 'aqua':             ['#8ec07c',   '108'],
-            \ 'blue':             ['#83a598',   '109'],
+            \ 'blue':             ['#87afaf',   '109'],
             \ 'purple':           ['#d3869b',   '175'],
             \ 'bg_red':           ['#cc241d',   '124'],
             \ 'bg_green':         ['#b8bb26',   '106'],

@@ -308,6 +308,11 @@ call gruvbox_material#highlight('Ignore', s:palette.grey1, s:palette.none)
 call gruvbox_material#highlight('Underlined', s:palette.none, s:palette.none, 'underline')
 " }}}
 " Predefined Highlight Groups: {{{
+call gruvbox_material#highlight('Bg', s:palette.bg0, s:palette.none)
+call gruvbox_material#highlight('Bg1', s:palette.bg1, s:palette.none)
+call gruvbox_material#highlight('Bg2', s:palette.bg2, s:palette.none)
+call gruvbox_material#highlight('Bg3', s:palette.bg3, s:palette.none)
+call gruvbox_material#highlight('Bg4', s:palette.bg4, s:palette.none)
 call gruvbox_material#highlight('Fg', s:palette.fg0, s:palette.none)
 call gruvbox_material#highlight('Fg1', s:palette.fg1, s:palette.none)
 call gruvbox_material#highlight('Fg2', s:palette.fg2, s:palette.none)
@@ -489,10 +494,10 @@ highlight! link TSKeywordReturn Red
 highlight! link TSLabel Red
 highlight! link TSMethod GreenBold
 highlight! link TSNamespace YellowItalic
-highlight! link TSNone Fg1
+highlight! link TSNone Fg0
 highlight! link TSNumber Purple
 highlight! link TSOperator Orange
-highlight! link TSParameter Fg
+highlight! link TSParameter Fg0
 highlight! link TSParameterReference Fg
 highlight! link TSProperty Fg2
 highlight! link TSPunctBracket Fg3
@@ -513,7 +518,7 @@ highlight! link TSMath Blue
 highlight! link TSType Yellow
 highlight! link TSTypeBuiltin YellowItalic
 highlight! link TSURI markdownUrl
-highlight! link TSVariable Fg1
+highlight! link TSVariable Fg0
 highlight! link TSVariableBuiltin BlueItalic
 " }}}
 " neoclide/coc.nvim {{{
@@ -1147,11 +1152,12 @@ highlight! link NvimTreeFolderIcon Orange
 highlight! link NvimTreeEmptyFolderName Aqua
 highlight! link NvimTreeOpenedFolderName Aqua
 highlight! link NvimTreeExecFile Yellow
+highlight! link NvimTreeNormal Fg
 highlight! link NvimTreeOpenedFile Fg
 highlight! link NvimTreeSpecialFile Fg
 highlight! link NvimTreeImageFile Fg
 highlight! link NvimTreeMarkdownFile Fg
-highlight! link NvimTreeIndentMarker Grey
+highlight! link NvimTreeIndentMarker Bg2
 highlight! link NvimTreeGitDirty Yellow
 highlight! link NvimTreeGitStaged Blue
 highlight! link NvimTreeGitMerge Orange
@@ -1936,8 +1942,9 @@ highlight! link semshiErrorChar RedSign
 " builtin: {{{
 highlight! link luaFunc GreenBold
 highlight! link luaFunction Aqua
-highlight! link luaTable Fg
+highlight! link luaTable Orange
 highlight! link luaIn RedItalic
+highlight! link luaTSField Fg1
 " }}}
 " vim-lua: https://github.com/tbastos/vim-lua {{{
 highlight! link luaFuncCall GreenBold
@@ -2071,6 +2078,9 @@ highlight! link rubyModuleName Purple
 highlight! link rubyAccess Orange
 highlight! link rubyAttribute Yellow
 highlight! link rubyMacro RedItalic
+
+highlight! link rubyTSKeyword Aqua
+highlight! link rubyTSLabel Blue
 " }}}
 " ft_end }}}
 " ft_begin: haskell {{{
