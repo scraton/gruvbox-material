@@ -105,7 +105,7 @@ call gruvbox_material#highlight('DiffText', s:palette.bg0, s:palette.blue)
 call gruvbox_material#highlight('Directory', s:palette.green, s:palette.none)
 call gruvbox_material#highlight('ErrorMsg', s:palette.red, s:palette.none, 'bold,underline')
 if s:configuration.ui_contrast ==# 'low'
-  call gruvbox_material#highlight('LineNr', s:palette.bg5, s:palette.none)
+  call gruvbox_material#highlight('LineNr', s:palette.bg1, s:palette.none)
   if &diff
     call gruvbox_material#highlight('CursorLineNr', s:palette.grey1, s:palette.none, 'underline')
   elseif (&relativenumber == 1 && &cursorline == 0) || s:configuration.sign_column_background !=# 'default'
